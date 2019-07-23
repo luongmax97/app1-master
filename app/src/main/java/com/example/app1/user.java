@@ -1,51 +1,49 @@
 package com.example.app1;
 
 public class user {
-    private int anh;
-    private String ten, diaChi;
-    private boolean gender;
+    private String mAnh;
+    private String mTen, mDiaChi;
+    private String mGender;
 
-    public user(int anh, String ten, String diaChi, boolean gender) {
-        this.anh = anh;
-        this.ten = ten;
-        this.diaChi = diaChi;
-        this.gender = gender;
+    public user(String mAnh, String mTen, String mDiaChi, String mGender) {
+        this.mAnh = mAnh;
+        this.mTen = mTen;
+        this.mDiaChi = mDiaChi;
+        this.mGender = mGender;
     }
 
-    public user(int anh, String ten) {
-        this.anh = anh;
-        this.ten = ten;
+    public user() {
     }
 
-    public int getAnh() {
-        return anh;
+    public String getmAnh() {
+        return mAnh;
     }
 
-    public void setAnh(int anh) {
-        this.anh = anh;
+    public void setmAnh(String mAnh) {
+        this.mAnh = mAnh;
     }
 
-    public String getTen() {
-        return ten;
+    public String getmTen() {
+        return mTen;
     }
 
-    public void setTen(String ten) {
-        this.ten = ten;
+    public void setmTen(String mTen) {
+        this.mTen = mTen;
     }
 
-    public String getDiaChi() {
-        return diaChi;
+    public String getmDiaChi() {
+        return mDiaChi;
     }
 
-    public void setDiaChi(String diaChi) {
-        this.diaChi = diaChi;
+    public void setmDiaChi(String mDiaChi) {
+        this.mDiaChi = mDiaChi;
     }
 
-    public boolean isGender() {
-        return gender;
+    public String getmGender() {
+        return mGender;
     }
 
-    public void setGender(boolean gender) {
-        this.gender = gender;
+    public void setmGender(String mGender) {
+        this.mGender = mGender;
     }
 }
